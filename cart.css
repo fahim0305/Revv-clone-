@@ -1,0 +1,332 @@
+#navbar { 
+    width: 80%;   
+    height: 100px; 
+    /* border: 1px solid red;  */
+    margin: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: white; 
+} 
+#logo { 
+    width: 15%;  
+    height: 70%; 
+    /* border: 1px solid blue;  */
+    display: flex; 
+    margin-top: 10px; 
+} 
+#navbar1 { 
+    width: 60%;  
+    height: 70%; 
+    /* border: 1px solid red;  */
+    margin-top: 10px; 
+    margin-right: 10px; 
+    display: flex; 
+} 
+button { 
+    width: 30%; 
+    height: 70%; 
+    /* border: 1px solid red;  */
+    margin-top: 10px; 
+    font-size: 18px; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; 
+    border-radius: 7px;  
+    margin-left: 5px; 
+    margin-right: 10px; 
+} 
+#faq { 
+    width: 10%; 
+    height: 70%; 
+    /* border: 1px solid red;  */
+    margin-left: 15px;   
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+} 
+a {
+    text-decoration: none; 
+}
+#login { 
+    width: 25%;  
+    height: 70%; 
+    /* border: 1px solid red;  */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+    margin-left: 5px; 
+} 
+#car_old { 
+    width: 170px;    
+    height: 20px; 
+    background-color: #fec576; 
+    border-radius: 5px; 
+    margin-left: 150px;  
+} 
+#car_cart { 
+    width: 80%; 
+    height: 500px;     
+    /* border: 1px solid red;  */
+    margin: auto; 
+    display: flex; 
+} 
+#left_cart { 
+    width: 60%;    
+    height: 100%; 
+    /* border: 1px solid blue;  */
+} 
+#right_cart { 
+    width: 35%; 
+    height: 90%;  
+    /* border: 1px solid red;   */
+    margin-left: 10px; 
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+} 
+#top_nav { 
+    width: 100%; 
+    height: 70px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    padding-top: 10px; 
+} 
+#tenure { 
+    width: 100%; 
+    height: 350px;   
+    /* border: 1px solid red;  */
+} 
+#tenure1 { 
+    width: 100%; 
+    height: 50px; 
+    /* border: 1px solid red;  */
+    text-align: justify; 
+} 
+#tenure2 { 
+    width: 100%; 
+    height: 150px;     
+    /* border: 1px solid teal;  */
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 65px);    
+    gap: 10px; 
+} 
+.anchor { 
+    /* border: 1px solid blue;  */
+    border-radius: 10px; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+    background-color: #40636e; 
+    color: white; 
+    line-height: 2px; 
+    text-align: center; 
+} 
+#eligibility { 
+    width: 80%; 
+    height: 100px;    
+    /* border: 1px solid red;  */
+    margin-top: 20px;  
+    border-radius: 8px;  
+    background-color: #1caba2; 
+    color: white; 
+    text-align: center; 
+    margin: auto; 
+}
+#car_photo { 
+    width: 100%; 
+    height: 45%;   
+    /* border: 1px solid blue;  */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 200px); 
+    gap: 10px; 
+} 
+#car_photo > div { 
+    /* border: 1px solid red;  */
+} 
+#icon1 {
+    width: 80%; 
+    height: 150px;   
+    /* border: 1px solid red;  */
+    margin: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    background-color: rgb(167, 230, 230); 
+    border-radius: 10px; 
+} 
+#icon1 > div { 
+    width: 23%; 
+    height: 100%; 
+    /* border: 1px solid teal;  */
+} 
+.icon_banaye { 
+    width: 20%; 
+    height: 23%;  
+    /* border: 1px solid red;  */
+    margin: auto; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    margin-top: 5px; 
+} 
+.icon_likhiye { 
+    width: 100%; 
+    height: 70%; 
+    /* border: 1px solid red;  */ 
+    text-align: center; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+} 
+#chotu { 
+    width: 80%; 
+    height: 60px;  
+    /* border: 1px solid red;  */
+    margin: auto; 
+    margin-top: 20px; 
+} 
+#comprehensive { 
+    width: 80%; 
+    height: 150px;  
+    /* border: 1px solid red;  */
+    margin: auto; 
+} 
+#comprehensive1 { 
+    width: 100%; 
+    height: 15%; 
+    border-bottom: 3px seagreen; 
+    /* border: 1px solid red;  */
+    padding-bottom: 20px;   
+} 
+#comprehensive2 { 
+    width: 100%; 
+    height: 80%; 
+    /* border: 1px solid blue;  */
+    display: flex;  
+} 
+#comprehensive2 > div { 
+    width: 30%; 
+    height: 100%; 
+    /* border: 1px solid green;  */
+    margin-left: 30px; 
+} 
+.c_icon { 
+    width: 20%; 
+    height: 25%; 
+    /* border: 1px solid red;  */
+    margin: auto; 
+    margin-top: 5px; 
+} 
+.c_text { 
+    width: 100%; 
+    height: 65%; 
+    /* border: 1px solid blue;  */
+    margin-top: 5px; 
+    text-align: center; 
+} 
+img { 
+    width: 100%; 
+    height: 100%; 
+} 
+#routine_service { 
+    width: 80%; 
+    height: 180px; 
+    /* border: 1px solid red;  */
+    margin: auto; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    border-radius: 10px; 
+    background-color: rgb(167, 230, 230); 
+} 
+#r1 { 
+    width: 100%; 
+    height: 15%; 
+    /* border: 1px solid blue;   */
+    padding-bottom: 20px;
+} 
+#r2 {
+    width: 100%; 
+    height: 70%; 
+    /* border: 1px solid green;  */
+    display: flex; 
+    justify-content: space-between; 
+} 
+#r2 > div { 
+    width: 30%; 
+    height: 100%; 
+    /* border: 1px solid blue;  */
+} 
+.r2_icon { 
+    width: 30%; 
+    height: 32%;  
+    /* border: 1px solid teal;  */
+    margin: auto; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+} 
+.r2_text { 
+    width: 100%; 
+    height: 60%; 
+    /* border: 1px solid red;  */
+    text-align: center; 
+    margin-top: 3px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+} 
+#bada { 
+    width: 100%; 
+    height: 600px;  
+    background-color: #1ca4a3; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    margin-top: 30px;  
+} 
+#bada1 { 
+    width: 30%; 
+    height: 50%;   
+    /* border: 1px solid red;  */
+    margin-left: 147px; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2,100px); 
+    gap: 10px; 
+} 
+#bada1 > div { 
+    /* border: 1px solid teal;  */
+    margin-top: 30px; 
+    background-color: black; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+    border-radius: 10px; 
+} 
+#bada2 { 
+    width: 40%; 
+    height: 40%;  
+    /* border: 1px solid red;  */ 
+    margin-top: 30px; 
+    margin-left: 70px; 
+    border-radius: 10px; 
+} 
+#info { 
+    width: 80%; 
+    height: 400px; 
+    /* border: 1px solid red;  */
+    margin: auto; 
+    margin-top: 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: white; 
+    border-radius: 10px; 
+} 
+#info > div { 
+    width: 30%; 
+    height: 70%; 
+    /* border: 1px solid blue;  */
+    margin-top: 20px; 
+    margin-left: 20px; 
+} 
+#footer_icon { 
+    width: 70%; 
+    height: 70px; 
+    border: 1px solid teal;  
+    margin: auto; 
+    margin-bottom: 20px; 
+} 
+.footer { 
+    width: 70%; 
+    height: 60px; 
+    /* border: 1px solid teal; */
+    margin: auto; 
+    margin-top: 10px; 
+}
+

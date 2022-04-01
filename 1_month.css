@@ -1,0 +1,23 @@
+body { 
+    background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
+} 
+#main_box { 
+    width: 40%;    
+    height: 300px; 
+    border: 1px solid red; 
+    margin: auto; 
+    margin-top: 150px;  
+    background-color: white; 
+    text-align: center; 
+    background-color: rgb(224, 137, 31); 
+    border-radius: 10px; 
+} 
+#call { 
+    width: 80%; 
+    height: 80px; 
+    border: 1px solid red; 
+    margin: auto; 
+    border-radius: 8px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; 
+    background-color: white; 
+} 

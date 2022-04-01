@@ -1,0 +1,184 @@
+#navbar { 
+    width: 80%;   
+    height: 100px; 
+    /* border: 1px solid red;  */
+    margin: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: white; 
+} 
+#logo { 
+    width: 15%;  
+    height: 70%; 
+    /* border: 1px solid blue;  */
+    display: flex; 
+    margin-top: 10px; 
+} 
+#navbar1 { 
+    width: 60%;  
+    height: 70%; 
+    /* border: 1px solid red;  */
+    margin-top: 10px; 
+    margin-right: 10px; 
+    display: flex; 
+} 
+button { 
+    width: 30%; 
+    height: 70%; 
+    /* border: 1px solid red;  */
+    margin-top: 10px; 
+    font-size: 18px; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; 
+    border-radius: 7px;  
+    margin-left: 5px; 
+    margin-right: 10px; 
+} 
+#faq { 
+    width: 10%; 
+    height: 70%; 
+    /* border: 1px solid red;  */
+    margin-left: 5px; 
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+#login { 
+    width: 25%;  
+    height: 70%; 
+    /* border: 1px solid red;  */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+    margin-left: 5px; 
+} 
+#query_section { 
+    width: 100%; 
+    height: 3350px;      
+    /* border: 1px solid red;  */
+    display: flex; 
+} 
+#query_intro { 
+    width: 25%;  
+    height: 350px;  
+    /* border: 1px solid teal;  */
+    display: grid; 
+    grid-template-columns: repeat(1, 370px);    
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 10px; 
+} 
+#query_intro > div { 
+    /* border: 1px solid red;  */
+    text-align: center; 
+    background-color: #f1f1f1; 
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+} 
+#query_details { 
+    width: 70%; 
+    height: 100%; 
+    /* border: 1px solid blue;  */
+    margin-left: 10px; 
+} 
+#about_revv { 
+    width: 100%; 
+    height: 80px; 
+    /* border: 1px solid green;  */
+} 
+#about_revv_details { 
+    width: 100%; 
+    height: 1200px;       
+    /* border: 1px solid red;  */
+    display: grid; 
+    grid-template-columns: repeat(1, 1050px);    
+    grid-template-rows: repeat(14, 1fr); 
+    gap: 5px;  
+} 
+#about_revv_details > div { 
+    /* border: 1px solid teal;  */
+    background-color: #f1f1f1; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+    border-radius: 10px; 
+} 
+#your_bookings { 
+    width: 100%; 
+    height: 600px;  
+    /* border: 1px solid red;  */
+    /* display: grid; 
+    grid-template-columns: repeat(1, 1050px);    
+    grid-template-rows: repeat(7, 1fr); 
+    gap: 5px;  */
+} 
+#booking_heading { 
+    width: 100%; 
+    height: 80px; 
+    /* border: 1px solid green;  */
+} 
+#booking_details { 
+    width: 100%; 
+    height: 100%; 
+    /* border: 1px solid red;  */
+    display: grid; 
+    grid-template-columns: repeat(1, 1050px);    
+    grid-template-rows: repeat(7, 1fr); 
+    gap: 5px; 
+}
+#booking_details > div { 
+    /* border: 1px solid teal;  */
+    background-color: #f1f1f1; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+    border-radius: 10px; 
+} 
+#payment_refund { 
+    width: 100%; 
+    height: 500px;    
+    /* border: 1px solid red;  */
+} 
+#payment_head { 
+    width: 100%; 
+    height: 70px; 
+    /* border: 1px solid green;  */
+}
+#payment_info { 
+    width: 100%; 
+    height: 100%; 
+    /* border: 1px solid red;  */
+    display: grid; 
+    grid-template-columns: repeat(1, 1050px);    
+    grid-template-rows: repeat(5, 1fr); 
+    gap: 5px; 
+} 
+#payment_info > div { 
+    /* border: 1px solid teal;  */
+    background-color: #f1f1f1; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+    border-radius: 10px; 
+} 
+#your_trip {
+    width: 100%; 
+    height: 640px;     
+    /* border: 1px solid red;  */
+    margin-top: 80px;  
+}
+#your_trip_head { 
+    width: 100%; 
+    height: 70px; 
+    /* border: 1px solid green;  */
+} 
+#your_trip_base { 
+    width: 100%; 
+    height: 100%; 
+    /* border: 1px solid red;  */
+    display: grid; 
+    grid-template-columns: repeat(1, 1050px);    
+    grid-template-rows: repeat(7, 1fr); 
+    gap: 5px; 
+} 
+#your_trip_base > div { 
+    /* border: 1px solid teal;  */
+    background-color: #f1f1f1; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+    border-radius: 10px; 
+} 
+

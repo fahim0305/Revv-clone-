@@ -1,0 +1,13 @@
+body { 
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); 
+} 
+#container { 
+    width: 50%;  
+    height: 60%; 
+    background-color: #f1f4f8; 
+    margin: auto; 
+    margin-top: 150px;  
+    /* border: 1px solid red;  */ 
+    border-radius: 10px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+}
